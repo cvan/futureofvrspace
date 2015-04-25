@@ -101,8 +101,10 @@ header {
 }
 
 .main {
-  margin: 2vw auto;
-  max-width: 400px;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2rem;
+  width: 60%;
 }
 
 .copy {
@@ -135,6 +137,30 @@ header {
   border-left: .5rem solid rgba(0,0,0,.15);
   color: #666;
   padding-left: 1.5rem;
+}
+
+@media (max-width: 899px) {
+  .main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 799px) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 699px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media (max-width: 599px) {
+  .main {
+    width: 100%;
+  }
 }
     </style>
   </head>
